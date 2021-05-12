@@ -90,7 +90,7 @@ def gripper():
 
 	# Publish commands to the robot
 	pub.publish(twist)
-    moveGripper()
+    	moveGripper()
 	rospy.spin()
 	
 
